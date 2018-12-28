@@ -1,0 +1,518 @@
+<!DOCTYPE html><html xmlns:date="http://exslt.org/dates-and-times" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta charset="utf-8">
+<title>phpDocumentor » \Trigger</title>
+<meta name="author" content="Mike van Riel">
+<meta name="description" content="">
+<link href="../css/template.css" rel="stylesheet" media="all">
+<script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script><script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script><script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script><script src="../js/bootstrap.js" type="text/javascript"></script><script src="../js/template.js" type="text/javascript"></script><script src="../js/prettify/prettify.min.js" type="text/javascript"></script><link rel="shortcut icon" href="../img/favicon.ico">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner"><div class="container">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a class="brand" href="../index.html">phpDocumentor</a><div class="nav-collapse"><ul class="nav">
+<li class="dropdown">
+<a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                    API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a>Packages</a></li>
+<li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/auto-scaler.html"><i class="icon-folder-open"></i> auto-scaler</a></li>
+</ul>
+</li>
+<li class="dropdown" id="charts-menu">
+<a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                    Charts <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="../graph_class.html"><i class="icon-list-alt"></i> Class hierarchy diagram</a></li></ul>
+</li>
+<li class="dropdown" id="reports-menu">
+<a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                    Reports <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
+                <span class="label label-info">9</span></a></li>
+<li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
+                <ul><li>todo 
+                <span class="label label-info">10</span>
+</li></ul></a></li>
+<li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
+                <span class="label label-info">0</span></a></li>
+</ul>
+</li>
+</ul></div>
+</div></div>
+<div class="go_to_top"><a href="#___" style="color: inherit">Back to top  <i class="icon-upload icon-white"></i></a></div>
+</div>
+<div id="___" class="container">
+<noscript><div class="alert alert-warning">
+                            Javascript is disabled; several features are only available
+                            if Javascript is enabled.
+                        </div></noscript>
+<div class="row">
+<div class="span4">
+<span class="btn-group visibility" data-toggle="buttons-checkbox"><button class="btn public active" title="Show public elements">Public</button><button class="btn protected" title="Show protected elements">Protected</button><button class="btn private" title="Show private elements">Private</button><button class="btn inherited active" title="Show inherited elements">Inherited</button></span><div class="btn-group view pull-right" data-toggle="buttons-radio">
+<button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button><button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+</div>
+<ul class="side-nav nav nav-list">
+<li class="nav-header">
+<i class="icon-custom icon-method"></i> Methods</li>
+<li class="method public "><a href="#CompleteScale" title="CompleteScale :: Scale this trigger up or down"><span class="description">Scale this trigger up or down</span><pre>CompleteScale()</pre></a></li>
+<li class="method public "><a href="#CreateTrigger" title="CreateTrigger :: Create a new trigger"><span class="description">Create a new trigger</span><pre>CreateTrigger()</pre></a></li>
+<li class="method public "><a href="#DeleteTrigger" title="DeleteTrigger :: Delete a trigger"><span class="description">Delete a trigger</span><pre>DeleteTrigger()</pre></a></li>
+<li class="method public "><a href="#GetAverageResult" title="GetAverageResult :: Get the average result for this trigger"><span class="description">Get the average result for this trigger</span><pre>GetAverageResult()</pre></a></li>
+<li class="method public "><a href="#GetResults" title="GetResults :: Get the results from the trigger"><span class="description">Get the results from the trigger</span><pre>GetResults()</pre></a></li>
+<li class="method public "><a href="#GetTriggers" title="GetTriggers :: Get all of the triggers"><span class="description">Get all of the triggers</span><pre>GetTriggers()</pre></a></li>
+<li class="method public "><a href="#GetTriggersForCluster" title="GetTriggersForCluster :: Get triggers for a specific cluster"><span class="description">Get triggers for a specific cluster</span><pre>GetTriggersForCluster()</pre></a></li>
+<li class="method public "><a href="#HasPendingRequest" title="HasPendingRequest :: Does this trigger have a pending request open?"><span class="description">Does this trigger have a pending request open?</span><pre>HasPendingRequest()</pre></a></li>
+<li class="method public "><a href="#ModifyTockAction" title="ModifyTockAction :: Modify the approval status of a 'tock action'"><span class="description">Modify the approval status of a 'tock action'</span><pre>ModifyTockAction()</pre></a></li>
+<li class="method public "><a href="#Save" title="Save :: Save the data in this class back to the database"><span class="description">Save the data in this class back to the database</span><pre>Save()</pre></a></li>
+<li class="method public "><a href="#Scale" title="Scale :: Scale this trigger up or down"><span class="description">Scale this trigger up or down</span><pre>Scale()</pre></a></li>
+<li class="method public "><a href="#Trigger" title="Trigger :: Fetch the trigger from the DB"><span class="description">Fetch the trigger from the DB</span><pre>Trigger()</pre></a></li>
+<li class="nav-header private">» Private</li>
+<li class="method private "><a href="#GetTimeWindow" title="GetTimeWindow :: Get the time window of this trigger (the scale up or down time, whichever is the largest)"><span class="description">Get the time window of this trigger (the scale up or down time, whichever is the largest)</span><pre>GetTimeWindow()</pre></a></li>
+<li class="nav-header">
+<i class="icon-custom icon-property"></i> Properties</li>
+<li class="property public "><a href="#%24clusterId" title="$clusterId :: The cluster ID this trigger belongs to"><span class="description">The cluster ID this trigger belongs to</span><pre>$clusterId</pre></a></li>
+<li class="property public "><a href="#%24communityString" title="$communityString :: The SNMP v2 community string"><span class="description">The SNMP v2 community string</span><pre>$communityString</pre></a></li>
+<li class="property public "><a href="#%24customerId" title="$customerId :: The customer id"><span class="description">The customer id</span><pre>$customerId</pre></a></li>
+<li class="property public "><a href="#%24lower" title="$lower :: The lower trigger limit"><span class="description">The lower trigger limit</span><pre>$lower</pre></a></li>
+<li class="property public "><a href="#%24oid" title="$oid :: The time window for scale down events, in seconds"><span class="description">The time window for scale down events, in seconds</span><pre>$oid</pre></a></li>
+<li class="property public "><a href="#%24priority" title="$priority :: The priority of the trigger (highest takes priority)"><span class="description">The priority of the trigger (highest takes priority)</span><pre>$priority</pre></a></li>
+<li class="property public "><a href="#%24scaleDownTime" title="$scaleDownTime :: The trigger name"><span class="description">The trigger name</span><pre>$scaleDownTime</pre></a></li>
+<li class="property public "><a href="#%24scaleUpTime" title="$scaleUpTime :: The time window for scale up events, in seconds"><span class="description">The time window for scale up events, in seconds</span><pre>$scaleUpTime</pre></a></li>
+<li class="property public "><a href="#%24triggerApproval" title="$triggerApproval :: Approval method, either 'Automatic' or 'Manual'"><span class="description">Approval method, either 'Automatic' or 'Manual'</span><pre>$triggerApproval</pre></a></li>
+<li class="property public "><a href="#%24triggerName" title="$triggerName :: The trigger name"><span class="description">The trigger name</span><pre>$triggerName</pre></a></li>
+<li class="property public "><a href="#%24upper" title="$upper :: The upper trigger limit"><span class="description">The upper trigger limit</span><pre>$upper</pre></a></li>
+<li class="property public "><a href="#%24vmPrefix" title="$vmPrefix :: The vm prefix for new Virtual Machines, monitored ones or deleted ones"><span class="description">The vm prefix for new Virtual Machines, monitored ones or deleted ones</span><pre>$vmPrefix</pre></a></li>
+<li class="nav-header private">» Private</li>
+<li class="property private "><a href="#%24triggerId" title="$triggerId :: The trigger ID"><span class="description">The trigger ID</span><pre>$triggerId</pre></a></li>
+</ul>
+</div>
+<div class="span8">
+<a name="%5CTrigger" id="\Trigger"></a><div href="../classes/Trigger.html" class="element class">
+<p class="short_description">Trigger Class represents a watch (SNMP) on a cluster.</p>
+<div class="details">
+<p class="long_description"><p>A trigger contains the SNMP configuration and the action/approval settings for any auto-scaling</p></p>
+<table class="table table-bordered"><tr>
+<th>package</th>
+<td><a href="..//packages/auto-scaler.html">auto-scaler</a></td>
+</tr></table>
+<h3>
+<i class="icon-custom icon-method"></i> Methods</h3>
+<a name="CompleteScale" id="CompleteScale"></a><div class="element clickable method public CompleteScale" data-toggle="collapse" data-target=".CompleteScale .collapse">
+<h2>Scale this trigger up or down</h2>
+<pre>CompleteScale(string $direction) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>access</th>
+<td>public</td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$direction</h4>
+<code>string</code><p>Either SCALE_UP or SCALE_DOWN</p></div>
+</div></div>
+</div>
+<a name="CreateTrigger" id="CreateTrigger"></a><div class="element clickable method public CreateTrigger" data-toggle="collapse" data-target=".CreateTrigger .collapse">
+<h2>Create a new trigger</h2>
+<pre>CreateTrigger(string $metric, int $clusterId) : object</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<table class="table table-bordered">
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>static</th>
+<td></td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$metric</h4>
+<code>string</code><p>The metric to use</p></div>
+<div class="subelement argument">
+<h4>$clusterId</h4>
+<code>int</code><p>The cluster in which this trigger is located</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>object</code>The Trigger, returns false on failure</div>
+</div></div>
+</div>
+<a name="DeleteTrigger" id="DeleteTrigger"></a><div class="element clickable method public DeleteTrigger" data-toggle="collapse" data-target=".DeleteTrigger .collapse">
+<h2>Delete a trigger</h2>
+<pre>DeleteTrigger(int $triggerId, int $uid) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<table class="table table-bordered">
+<tr>
+<th>static</th>
+<td></td>
+</tr>
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$triggerId</h4>
+<code>int</code><p>The trigger ID</p></div>
+<div class="subelement argument">
+<h4>$uid</h4>
+<code>int</code><p>Filter by user, default to current user</p></div>
+</div></div>
+</div>
+<a name="GetAverageResult" id="GetAverageResult"></a><div class="element clickable method public GetAverageResult" data-toggle="collapse" data-target=".GetAverageResult .collapse">
+<h2>Get the average result for this trigger</h2>
+<pre>GetAverageResult() : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>access</th>
+<td>public</td>
+</tr></table>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>string</code>Average result</div>
+</div></div>
+</div>
+<a name="GetResults" id="GetResults"></a><div class="element clickable method public GetResults" data-toggle="collapse" data-target=".GetResults .collapse">
+<h2>Get the results from the trigger</h2>
+<pre>GetResults(bool $desc) : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>access</th>
+<td>public</td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$desc</h4>
+<code>bool</code><p>List results newest first (defaults false)</p>
+</div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>array</code>Result log</div>
+</div></div>
+</div>
+<a name="GetTriggers" id="GetTriggers"></a><div class="element clickable method public GetTriggers" data-toggle="collapse" data-target=".GetTriggers .collapse">
+<h2>Get all of the triggers</h2>
+<pre>GetTriggers(int $uid) : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>access</th>
+<td>public</td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$uid</h4>
+<code>int</code><p>Only get triggers for this user</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>array</code>List of triggers</div>
+</div></div>
+</div>
+<a name="GetTriggersForCluster" id="GetTriggersForCluster"></a><div class="element clickable method public GetTriggersForCluster" data-toggle="collapse" data-target=".GetTriggersForCluster .collapse">
+<h2>Get triggers for a specific cluster</h2>
+<pre>GetTriggersForCluster(int $clusterId, int $uid) : array</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>access</th>
+<td>public</td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$clusterId</h4>
+<code>int</code><p>The cluster ID</p></div>
+<div class="subelement argument">
+<h4>$uid</h4>
+<code>int</code><p>Only get triggers for this user, defaults to current user</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>array</code>List of triggers</div>
+</div></div>
+</div>
+<a name="HasPendingRequest" id="HasPendingRequest"></a><div class="element clickable method public HasPendingRequest" data-toggle="collapse" data-target=".HasPendingRequest .collapse">
+<h2>Does this trigger have a pending request open?</h2>
+<pre>HasPendingRequest() : bool</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>access</th>
+<td>public</td>
+</tr></table>
+<h3>Returns</h3>
+<div class="subelement response"><code>bool</code></div>
+</div></div>
+</div>
+<a name="ModifyTockAction" id="ModifyTockAction"></a><div class="element clickable method public ModifyTockAction" data-toggle="collapse" data-target=".ModifyTockAction .collapse">
+<h2>Modify the approval status of a 'tock action'</h2>
+<pre>ModifyTockAction(int $ta_id, string $newApprovalStatus) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<table class="table table-bordered">
+<tr>
+<th>access</th>
+<td>public</td>
+</tr>
+<tr>
+<th>static</th>
+<td></td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$ta_id</h4>
+<code>int</code><p>The tock action ID</p></div>
+<div class="subelement argument">
+<h4>$newApprovalStatus</h4>
+<code>string</code><p>the new approval status e.g. APPROVED</p></div>
+</div></div>
+</div>
+<a name="Save" id="Save"></a><div class="element clickable method public Save" data-toggle="collapse" data-target=".Save .collapse">
+<h2>Save the data in this class back to the database</h2>
+<pre>Save() </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>access</th>
+<td>public</td>
+</tr></table>
+</div></div>
+</div>
+<a name="Scale" id="Scale"></a><div class="element clickable method public Scale" data-toggle="collapse" data-target=".Scale .collapse">
+<h2>Scale this trigger up or down</h2>
+<pre>Scale(string $direction, $approval) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>access</th>
+<td>public</td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$direction</h4>
+<code>string</code><p>Either SCALE_UP or SCALE_DOWN</p></div>
+<div class="subelement argument">
+<h4>$approval</h4>
+<code></code>
+</div>
+</div></div>
+</div>
+<a name="Trigger" id="Trigger"></a><div class="element clickable method public Trigger" data-toggle="collapse" data-target=".Trigger .collapse">
+<h2>Fetch the trigger from the DB</h2>
+<pre>Trigger(int $id, int $uid) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$id</h4>
+<code>int</code><p>The trigger ID</p></div>
+<div class="subelement argument">
+<h4>$uid</h4>
+<code>int</code><p>The User ID to filter by, defaults to the current user</p></div>
+</div></div>
+</div>
+<a name="GetTimeWindow" id="GetTimeWindow"></a><div class="element clickable method private GetTimeWindow" data-toggle="collapse" data-target=".GetTimeWindow .collapse">
+<h2>Get the time window of this trigger (the scale up or down time, whichever is the largest)</h2>
+<pre>GetTimeWindow() : int</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>access</th>
+<td>private</td>
+</tr></table>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>int</code>Window in seconds</div>
+</div></div>
+</div>
+<h3>
+<i class="icon-custom icon-property"></i> Properties</h3>
+<a name="%24clusterId" id="$clusterId"> </a><div class="element clickable property public $clusterId" data-toggle="collapse" data-target=".$clusterId .collapse">
+<h2>The cluster ID this trigger belongs to</h2>
+<pre>$clusterId : int</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>access</th>
+<td>public</td>
+</tr></table>
+</div></div>
+</div>
+<a name="%24communityString" id="$communityString"> </a><div class="element clickable property public $communityString" data-toggle="collapse" data-target=".$communityString .collapse">
+<h2>The SNMP v2 community string</h2>
+<pre>$communityString : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>access</th>
+<td>public</td>
+</tr></table>
+</div></div>
+</div>
+<a name="%24customerId" id="$customerId"> </a><div class="element clickable property public $customerId" data-toggle="collapse" data-target=".$customerId .collapse">
+<h2>The customer id</h2>
+<pre>$customerId : int</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>access</th>
+<td>public</td>
+</tr></table>
+</div></div>
+</div>
+<a name="%24lower" id="$lower"> </a><div class="element clickable property public $lower" data-toggle="collapse" data-target=".$lower .collapse">
+<h2>The lower trigger limit</h2>
+<pre>$lower : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>access</th>
+<td>public</td>
+</tr></table>
+</div></div>
+</div>
+<a name="%24oid" id="$oid"> </a><div class="element clickable property public $oid" data-toggle="collapse" data-target=".$oid .collapse">
+<h2>The time window for scale down events, in seconds</h2>
+<pre>$oid : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>access</th>
+<td>public</td>
+</tr></table>
+</div></div>
+</div>
+<a name="%24priority" id="$priority"> </a><div class="element clickable property public $priority" data-toggle="collapse" data-target=".$priority .collapse">
+<h2>The priority of the trigger (highest takes priority)</h2>
+<pre>$priority : int</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>access</th>
+<td>public</td>
+</tr></table>
+</div></div>
+</div>
+<a name="%24scaleDownTime" id="$scaleDownTime"> </a><div class="element clickable property public $scaleDownTime" data-toggle="collapse" data-target=".$scaleDownTime .collapse">
+<h2>The trigger name</h2>
+<pre>$scaleDownTime : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>access</th>
+<td>public</td>
+</tr></table>
+</div></div>
+</div>
+<a name="%24scaleUpTime" id="$scaleUpTime"> </a><div class="element clickable property public $scaleUpTime" data-toggle="collapse" data-target=".$scaleUpTime .collapse">
+<h2>The time window for scale up events, in seconds</h2>
+<pre>$scaleUpTime : int</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>access</th>
+<td>public</td>
+</tr></table>
+</div></div>
+</div>
+<a name="%24triggerApproval" id="$triggerApproval"> </a><div class="element clickable property public $triggerApproval" data-toggle="collapse" data-target=".$triggerApproval .collapse">
+<h2>Approval method, either 'Automatic' or 'Manual'</h2>
+<pre>$triggerApproval : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>access</th>
+<td>public</td>
+</tr></table>
+</div></div>
+</div>
+<a name="%24triggerName" id="$triggerName"> </a><div class="element clickable property public $triggerName" data-toggle="collapse" data-target=".$triggerName .collapse">
+<h2>The trigger name</h2>
+<pre>$triggerName : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>access</th>
+<td>public</td>
+</tr></table>
+</div></div>
+</div>
+<a name="%24upper" id="$upper"> </a><div class="element clickable property public $upper" data-toggle="collapse" data-target=".$upper .collapse">
+<h2>The upper trigger limit</h2>
+<pre>$upper : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>access</th>
+<td>public</td>
+</tr></table>
+</div></div>
+</div>
+<a name="%24vmPrefix" id="$vmPrefix"> </a><div class="element clickable property public $vmPrefix" data-toggle="collapse" data-target=".$vmPrefix .collapse">
+<h2>The vm prefix for new Virtual Machines, monitored ones or deleted ones</h2>
+<pre>$vmPrefix : string</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>access</th>
+<td>public</td>
+</tr></table>
+</div></div>
+</div>
+<a name="%24triggerId" id="$triggerId"> </a><div class="element clickable property private $triggerId" data-toggle="collapse" data-target=".$triggerId .collapse">
+<h2>The trigger ID</h2>
+<pre>$triggerId : int</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="span8">
+<p class="long_description"></p>
+<table class="table table-bordered"><tr>
+<th>access</th>
+<td>private</td>
+</tr></table>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a2</a> and<br>
+            generated on 2012-06-18T22:09:05+01:00.<br></footer></div>
+</div>
+</body>
+</html>
